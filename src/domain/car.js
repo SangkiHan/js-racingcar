@@ -15,7 +15,7 @@ class Car {
     }
 
     moveForward() {
-        if(rand.randMoveForward()) {
+        if(rand.randMoveForward(10, 4)) {
             this.distance += 1;
         }
     }
