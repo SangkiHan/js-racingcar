@@ -34,7 +34,7 @@ class Race {
     }
 
     confirmHighestDisance(distance) {
-        this.maxDistance = (this.maxDistance < distance) ? distance : this.maxDistance;
+        this.maxDistance = Math.max(this.maxDistance, distance)
     }
 
     confirmWinner(car) {
