@@ -1,4 +1,4 @@
-import * as rand from "../src/random.js";
+import * as rand from "../src/util/random.js";
 
 describe("Random 테스트", () => {
     beforeEach(() => {

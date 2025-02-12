@@ -1,4 +1,4 @@
-import * as io from "./view/inputoutput.js"
+import * as io from "../view/inputoutput.js"
 import Race from "./race.js";
 import Car from "./car.js"
 

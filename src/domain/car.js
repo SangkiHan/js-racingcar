@@ -1,4 +1,4 @@
-import * as rand from "./random.js"
+import * as rand from "../util/random.js"
 
 class Car {
 
